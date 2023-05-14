@@ -1,0 +1,15 @@
+// Ejercicio 2:  Determinar si un alumno aprueba un curso, sabiendo que
+// aprobara si su promedio de tres calificaciones es mayor o igual a 70
+// reprueba caso contrario. (Diagrama de flujo)
+Proceso Ejercicio2
+	Definir nota1,nota2,nota3 Como Reales;
+	Definir Promedio Como Real;
+	Escribir 'Digite las 3 calificaciones';
+	Leer nota1,nota2,nota3;
+	promedio <- (nota1+nota2+nota3)/3;
+	Si Promedio >=70 Entonces
+		Escribir "El alumno esta aprobado con: ",promedio;
+	SiNo
+		Escribir "El alumno esta reprobado con: ",Promedio;
+	FinSi
+FinProceso
